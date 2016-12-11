@@ -4,3 +4,15 @@ Requires Keras
     1. download source using >>> git clone https://github.com/fchollet/keras.git
     2. >>> cd keras
     3. install using >>> python setup.py install
+
+Configure Keras to use "theano" instead of "tensorflow"
+    1. >>> vi ~/.keras/keras.json
+    2. edit backend from "tensorflow" to "theano"
+
+Install graphing packaes
+    1. >>> conda install graphviz
+    2. >>> pip install git+https://github.com/nlhepler/pydot.git
+    Alternatively
+    2.a >>> git clone https://github.com/nlhepler/pydot.git
+    2.b >>> cd pydot
+    2.c >>> python setup.py install
