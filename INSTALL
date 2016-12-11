@@ -1,0 +1,6 @@
+Using Python3.5.2 :: Anaconda 4.2.0 (x86_64)
+
+Requires Keras
+    1. download source using >>> git clone https://github.com/fchollet/keras.git
+    2. >>> cd keras
+    3. install using >>> python setup.py install
