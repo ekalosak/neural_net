@@ -16,3 +16,9 @@ Install graphing packaes
     2.a >>> git clone https://github.com/nlhepler/pydot.git
     2.b >>> cd pydot
     2.c >>> python setup.py install
+
+Install mnist (https://pypi.python.org/pypi/python-mnist)
+    1. >>> git clone https://github.com/sorki/python-mnist
+    2. >>> cd python-mnist
+    3. >>> python setup.py install
+    4. >>> ./get_data.sh
